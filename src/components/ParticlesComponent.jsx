@@ -96,6 +96,7 @@ const ParticlesComponent = (props) => {
     }),
     []
   );
+  
 
   return (
     <div
