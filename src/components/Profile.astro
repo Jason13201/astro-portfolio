@@ -1,0 +1,64 @@
+---
+import { FaEnvelope, FaGithub } from "react-icons/fa";
+---
+
+<section class="profile-container">
+  <div class="profile">
+    <div class="name">
+      <p>JASON</p>
+      <p>HERALD</p>
+    </div>
+    <div class="icons">
+      <a href="mailto:me@jasonh.tech" class="icon">
+        <FaEnvelope size={28} />
+      </a>
+      <a href="https://github.com/jason13201" class="icon">
+        <FaGithub size={28} />
+      </a>
+    </div>
+  </div>
+</section>
+
+<style>
+  @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap");
+
+  .profile-container {
+    position: relative;
+    z-index: 100;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 3rem;
+  }
+
+  .profile {
+    background-color: transparent;
+    color: white;
+    font-family: "Rubik", sans-serif;
+    padding: 1rem;
+  }
+
+  .name {
+    margin-bottom: 1rem;
+  }
+
+  .name p {
+    margin: 0;
+    font-size: 2.5rem;
+    line-height: 1.2;
+  }
+
+  .icons {
+    display: flex;
+    gap: 0.5rem;
+  }
+
+  .icon {
+    color: grey;
+    transition: color 0.3s ease;
+  }
+
+  .icon:hover {
+    color: white;
+  }
+</style>
